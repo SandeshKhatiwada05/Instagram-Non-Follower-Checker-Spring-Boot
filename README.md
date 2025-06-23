@@ -13,7 +13,7 @@ Upload your downloaded `followers.json` and `following.json` from Instagram, and
 ![UI Preview](https://via.placeholder.com/800x400?text=Add+Screenshot+Here)
 
 ## 🛠️ How to Use
-1. Go to your [Instagram Data Download](https://www.instagram.com/download/request/) page
+1. Go to your [Instagram Data Download](https://www.instagram.com/download/request/) page 
 2. Request your data in **JSON** format
 3. Download the ZIP and extract `followers.json` and `following.json` (inside `followers_and_following/`)
 4. Run the app locally:
