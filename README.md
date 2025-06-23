@@ -35,4 +35,14 @@ Upload your downloaded `followers.json` and `following.json` from Instagram, and
 └── InstagramCheckerApplication.java
 ```
 
+## 📦 Built With
+- Spring Boot
+- Thymeleaf
+- Bootstrap 5
+- Jackson (JSON parser)
+
+
+## 🔗 Connect
+Created with 💙 by [Your Name](https://github.com/SandeshKhatiwada05)
+
 
