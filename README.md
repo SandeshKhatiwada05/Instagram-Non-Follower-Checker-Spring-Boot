@@ -24,3 +24,15 @@ Upload your downloaded `followers.json` and `following.json` from Instagram, and
 6. Upload both files and view who doesn’t follow you back
 
 ## 📂 Project Structure
+```
+📁 instagram-checker/
+├── controller/
+│ └── UploadController.java
+├── templates/
+│ └── index.html
+├── static/
+│ └── style.css (optional, not in this case)
+└── InstagramCheckerApplication.java
+```
+
+
