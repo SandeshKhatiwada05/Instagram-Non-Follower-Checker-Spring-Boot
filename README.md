@@ -10,7 +10,8 @@ Upload your downloaded `followers.json` and `following.json` from Instagram, and
 - ✅ Clean UI using Bootstrap 5
 
 ## 🖼️ Preview
-![UI Preview](https://via.placeholder.com/800x400?text=Add+Screenshot+Here)
+![Uploading image.png…]()
+
 
 ## 🛠️ How to Use
 1. Go to your [Instagram Data Download](https://www.instagram.com/download/request/) page 
