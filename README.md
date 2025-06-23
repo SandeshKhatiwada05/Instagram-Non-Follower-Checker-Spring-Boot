@@ -45,6 +45,6 @@ Upload your downloaded `followers.json` and `following.json` from Instagram, and
 
 
 ## 🔗 Connect
-Created with 💙 by [Your Name](https://github.com/SandeshKhatiwada05)
+Created with 💙 by [Sandesh Khatiwada](https://github.com/SandeshKhatiwada05)
 
 
