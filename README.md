@@ -10,7 +10,8 @@ Upload your downloaded `followers.json` and `following.json` from Instagram, and
 - ✅ Clean UI using Bootstrap 5
 
 ## 🖼️ Preview
-![image](https://github.com/user-attachments/assets/b65aabc3-9c44-413c-bdb2-8b8d9d2108dc)
+![Unfollowersinstagram-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/da9cddde-f557-46a6-b5ee-24e726b5f0d3)
+
 
 
 
