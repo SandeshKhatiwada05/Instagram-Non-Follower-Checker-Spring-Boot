@@ -1,5 +1,7 @@
 package com.insta.insta.controller;
 
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -12,6 +14,12 @@ import com.fasterxml.jackson.databind.*;
 
 @Controller
 public class UploadController {
+
+    @GetMapping("/favicon.ico")
+    @ResponseBody
+    public ResponseEntity<Void> favicon() {
+        return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
+    }
 
     @GetMapping("/")
     public String home() {
