@@ -1,51 +1,29 @@
-# Instagram Non-Follower Checker
+# Instagram Non-Follower Detector
 
-A simple Spring Boot web app that helps you find out **who doesn’t follow you back** on Instagram.  
-Upload your downloaded `followers.json` and `following.json` from Instagram, and the app shows non-followers with links to their profiles.
+A Spring Boot web app that tells you who doesn't follow you back on Instagram.
 
-## Features
-- ✅ Upload `followers.json` and `following.json` files
-- ✅ Find users who don’t follow you back
-- ✅ Click usernames to open their profile in a new tab
-- ✅ Clean UI using Bootstrap 5
+Upload your `followers.json` and `following.json` from Instagram's data export, and the app shows a list of non-followers with direct links to their profiles. Files are processed in memory — nothing is stored.
 
-## Preview
-![Unfollowersinstagram-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/da9cddde-f557-46a6-b5ee-24e726b5f0d3)
+## Stack
 
+- Java 17, Spring Boot 3.2
+- Thymeleaf for templating
+- Vanilla HTML, CSS, and JS on the frontend
 
+## Getting started
 
+**1. Get your Instagram data**
 
-## How to Use
-1. Go to your [Instagram Data Download](https://www.instagram.com/download/request/) page 
-2. Request your data in **JSON** format
-3. Download the ZIP and extract `followers.json` and `following.json` (inside `followers_and_following/`)
-4. Run the app locally:
-    ```bash
-    ./mvnw spring-boot:run
-    ```
-5. Open [http://localhost:8080](http://localhost:8080) in your browser
-6. Upload both files and view who doesn’t follow you back
+Go to Instagram > Settings > Your Activity > Download your information. Request JSON format. Once downloaded, unzip and find `followers_1.json` and `following.json`.
 
-## Project Structure
-```
-📁 instagram-checker/
-├── controller/
-│ └── UploadController.java
-├── templates/
-│ └── index.html
-├── static/
-│ └── style.css (optional, not in this case)
-└── InstagramCheckerApplication.java
+**2. Run the app**
+
+```bash
+mvn spring-boot:run
 ```
 
-## Built With
-- Spring Boot
-- Thymeleaf
-- Bootstrap 5
-- Jackson (JSON parser)
+Open `http://localhost:8080`, upload both files, and hit Analyse.
 
+## Notes
 
-## 🔗 Connect
-Created with 💙 by [Sandesh Khatiwada](https://github.com/SandeshKhatiwada05)
-
-
+Instagram's export format has changed over time. The parser handles both the top-level array format (followers) and the keyed object format (following). If your export looks different, open an issue with a redacted sample.
