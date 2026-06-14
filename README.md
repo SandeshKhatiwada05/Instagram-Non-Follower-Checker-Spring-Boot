@@ -24,6 +24,9 @@ mvn spring-boot:run
 
 Open `http://localhost:8080`, upload both files, and hit Analyse.
 
+<img width="912" height="972" alt="image" src="https://github.com/user-attachments/assets/3c23de9e-79a7-4e89-be53-ed4034f80b9b" />
+
+
 ## Notes
 
 Instagram's export format has changed over time. The parser handles both the top-level array format (followers) and the keyed object format (following). If your export looks different, open an issue with a redacted sample.
