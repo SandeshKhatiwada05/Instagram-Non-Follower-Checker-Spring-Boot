@@ -1,0 +1,5 @@
+com/mainframe/instagram/model/InstagramUser.class
+com/mainframe/instagram/service/InstagramService.class
+com/mainframe/instagram/controller/InstagramController.class
+com/mainframe/instagram/model/AnalysisResult.class
+com/mainframe/instagram/InstagramDetectorApplication.class
